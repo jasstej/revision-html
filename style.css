@@ -1,0 +1,113 @@
+* {
+    background-color: rgb(255, 255, 255);
+    padding: 0.1%;
+    margin: 1mm;
+}
+
+
+h1.new {
+    color: rgb(90, 192, 22);
+    font-size: 55px;
+    text-align: center;
+    border: 1cm;
+    font-family: Arial;
+}
+
+h1.old {
+    color: rgb(148, 25, 185);
+    font-size: 25px;
+    text-align: center
+}
+
+p:hover {
+    border: 7px solid rebeccapurple;
+    background-color: darkgreen;
+}
+
+p.intro {
+    font-size: larger;
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid black;
+}
+
+p.new {
+    color: rgb(238, 153, 42);
+    font-size: 25px;
+    text-align: center
+}
+
+p.old {
+    color: rgb(74, 243, 187);
+    font-size: 25px;
+    text-align: center
+}
+
+tr.new {
+    color: rgb(1, 143, 143);
+}
+
+td,
+tr {
+    background-color: #fce9e9;
+    font-family: sans-serif;
+    padding: 3%;
+}
+
+.border {
+    background-color: rgb(255, 255, 255);
+    text-decoration: dotted;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.box1 {
+    background-color: aquamarine;
+}
+
+
+.box2 {
+    background-color: firebrick;
+}
+
+/* div {
+    display: inline-block;
+    width: 250px;
+    margin: 25px;
+} */
+
+.item {
+    width: 100px;
+    height: 100px;
+}
+
+.one {
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.two {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+.three {
+    background-color: rgb(35, 151, 54);
+    border: 2px solid black;
+}
+
+
+.containor {
+    display: flex;
+    height: 5000px;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+
+
+
+}
